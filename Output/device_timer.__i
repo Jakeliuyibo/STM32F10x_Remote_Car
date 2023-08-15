@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\FWlib\inc -I..\Sys_Init\inc -I..\User_Prog\inc -I..\BSP\inc -I..\APP\inc -I..\LIB\inc
+-I C:\Users\lenovo\Desktop\小车\遥控小车\STM32F10x_Car_In_Project_LYB_V2.3\project\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o ..\output\device_timer.o --omf_browse ..\output\device_timer.crf --depend ..\output\device_timer.d "..\User_Prog\src\device_timer.c"
